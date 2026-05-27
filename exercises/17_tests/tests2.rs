@@ -10,14 +10,15 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+
+use super::*;
 
     #[test]
     fn you_can_assert_eq() {
         // TODO: Test the function `power_of_2` with some values.
-        assert_eq!();
-        assert_eq!();
-        assert_eq!();
-        assert_eq!();
+        assert_eq!(power_of_2(1), 2);
+        assert_eq!(power_of_2(2), 4);
+        assert_eq!(power_of_2(3), 8);
+        assert_eq!(power_of_2(0), 1);
     }
 }
