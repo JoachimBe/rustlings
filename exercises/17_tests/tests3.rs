@@ -29,8 +29,13 @@ mod tests {
         // TODO: This test should check if the rectangle has the size that we
         // pass to its constructor.
         let rect = Rectangle::new(10, 20);
+<<<<<<< HEAD
         assert_eq!((rect.width), 10); // Check width
         assert_eq!((rect.height), 20); // Check height
+=======
+        assert_eq!(rect.width, 10); // Check width
+        assert_eq!(rect.height, 20); // Check height
+>>>>>>> c27de63debe02eaeccfbccc8b25a03a05338e6a9
     }
 
     // TODO: This test should check if the program panics when we try to create

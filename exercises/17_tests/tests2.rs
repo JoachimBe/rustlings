@@ -10,7 +10,8 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+
+use super::*;
 
     #[test]
     fn you_can_assert_eq() {
