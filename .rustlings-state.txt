@@ -1,10 +1,6 @@
 DON'T EDIT THIS FILE!
 
-<<<<<<< HEAD
-rc1
-=======
-tests3
->>>>>>> c27de63debe02eaeccfbccc8b25a03a05338e6a9
+arc1
 
 intro1
 intro2
@@ -74,7 +70,6 @@ lifetimes1
 lifetimes2
 lifetimes3
 tests1
-<<<<<<< HEAD
 tests2
 tests3
 iterators1
@@ -83,6 +78,4 @@ iterators3
 iterators4
 iterators5
 box1
-=======
-tests2
->>>>>>> c27de63debe02eaeccfbccc8b25a03a05338e6a9
+rc1

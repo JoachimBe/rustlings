@@ -19,10 +19,6 @@ mod tests {
     fn you_can_assert() {
         // TODO: Test the function `is_even` with some values.
         assert!(is_even(2), "is even");
-<<<<<<< HEAD
         assert!(!is_even(3), "not even");
-=======
-        assert!(!is_even(3), "is not event");
->>>>>>> c27de63debe02eaeccfbccc8b25a03a05338e6a9
     }
 }
